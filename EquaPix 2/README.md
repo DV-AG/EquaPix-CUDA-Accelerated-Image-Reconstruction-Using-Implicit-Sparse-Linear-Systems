@@ -2,10 +2,6 @@ EquaPix: GPU-Based Image Reconstruction Using Sparse Linear Systems
 
 EquaPix is a CUDA-based grayscale image reconstruction project.
 
-The basic pipeline is:
-
-Original image → masked image → sparse pixel equations → CUDA Jacobi reconstruction → reconstructed image
-
 The project treats missing pixels as unknown values in a sparse system based on their neighboring pixels. CUDA is used to update many pixels in parallel.
 
 The project also includes a sequential CPU implementation for correctness comparison and timing.
@@ -224,7 +220,7 @@ Output files
 
 Each experiment folder contains:
 
-metrics.csv
+
 execution_log.txt
 examples/
 matrix_portraits/
@@ -249,7 +245,7 @@ Input images remain in PGM format, while all user-facing results are written as 
 
 Metrics
 
-The program records several values in metrics.csv.
+The program records several values in execution_log.txt of each folder of results(created after the run).
 
 Important columns include:
 
