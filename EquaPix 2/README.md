@@ -220,7 +220,7 @@ Output files
 
 Each experiment folder contains:
 
-
+metrics.csv
 execution_log.txt
 examples/
 matrix_portraits/
@@ -245,7 +245,7 @@ Input images remain in PGM format, while all user-facing results are written as 
 
 Metrics
 
-The program records several values in execution_log.txt of each folder of results(created after the run).
+The program records several values in metrics.csv of each folder of results(created after the run).
 
 Important columns include:
 
