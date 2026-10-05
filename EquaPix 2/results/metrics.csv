@@ -1,0 +1,1 @@
+image_name,mask_type,requested_missing_percent,actual_missing_percent,width,height,iterations,gpu_ms,gpu_pipeline_ms,total_ms,rmse,psnr,missing_rmse,missing_psnr,cpu_ms,speedup,cpu_gpu_max_abs,validation,unknowns,implicit_nonzeros,image_seed

@@ -1,0 +1,17 @@
+{
+  "count": 8,
+  "width": 128,
+  "height": 128,
+  "seed": 42,
+  "patterns": [
+    "gradient",
+    "circles",
+    "rectangles",
+    "checkerboard",
+    "sine",
+    "diagonal",
+    "combined",
+    "smooth",
+    "texture"
+  ]
+}
